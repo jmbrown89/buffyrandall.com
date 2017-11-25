@@ -1,0 +1,26 @@
+{
+  "name": "buffyrandall",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "example": "examples",
+    "test": "test"
+  },
+  "dependencies": {},
+  "devDependencies": {},
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jmbrown89/buffyrandall.com.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jmbrown89/buffyrandall.com/issues"
+  },
+  "homepage": "https://github.com/jmbrown89/buffyrandall.com#readme"
+}
