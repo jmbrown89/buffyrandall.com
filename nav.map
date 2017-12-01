@@ -1,0 +1,13 @@
+<img src="[Untitled]" width="2000" height="837" border="0" usemap="#map" />
+
+<map name="map">
+<!-- #$-:Image map file created by GIMP Image Map plug-in -->
+<!-- #$-:GIMP Image Map plug-in by Maurits Rijk -->
+<!-- #$-:Please do not edit lines starting with "#$" -->
+<!-- #$VERSION:2.3 -->
+<!-- #$AUTHOR:james -->
+<area shape="rect" coords="79,450,365,524" alt="Home" href="home.html" />
+<area shape="rect" coords="475,655,647,737" alt="Shop" href="shop.html" />
+<area shape="rect" coords="1387,200,1524,264" alt="About Buffy" href="about.html" />
+<area shape="rect" coords="1388,505,1520,579" alt="Visit the lab" href="lab.html" />
+</map>

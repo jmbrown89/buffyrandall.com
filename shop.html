@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Shop | Buffy Randall</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+
+  </head>
+
+  <body>
+
+    <nav class="navbar navbar-default">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <a class="navbar-brand" href="#">Buffy Randall</a>
+        </div>
+        <ul class="nav navbar-nav">
+        <ul class="nav navbar-nav">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="info.html">Info</a></li>
+          <li class="active"><a href="shop.html">Shop</a></li>
+          <li><a href="#" data-toggle="tooltip" data-placement="bottom" title="Coming soon!">Lab</a></li>
+        </ul>
+        </ul>
+      </div>
+    </nav>
+
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-sm-12" align="center">
+          <h1>Poppy's Big Idea</h1>
+          <br />
+          <div style='position: relative; width: 100%; height: 0px; padding-bottom: 60%;'>
+            <iframe id="preview" data-bindattr-21="21"
+              height="800px" data-bindattr-22="22"
+              width="1200px" data-bindattr-23="23"
+              src="http://www.blurb.com/bookshare/app/index.html?bookId=8330300" data-bindattr-24="24"
+              frameborder=0
+              allowfullscreen=''
+              onload='this.focus()'
+              scrolling='no'
+              style='position: absolute; left: 0px; top: 0px; width: 100%; height: 100%'>
+            </iframe>
+          </div>
+
+        </div>
+      </div>  
+    </div>
+
+   <footer class="footer">
+      <div class="container">
+        <p class="text-muted text-center">Buffy Randall | © 2017 Copyright: <a href="https://www.buffyrandall.com"> buffyrandall.com </a></p>
+      </div>
+    </footer>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+    <script src="https://npmcdn.com/tether@1.2.4/dist/js/tether.min.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="js/jquery.rwdImageMaps.min.js"></script>
+    <script type="text/javascript">
+      
+      $(document).ready(function(e) {
+        $('img[usemap]').rwdImageMaps();
+        $("[rel='tooltip']").tooltip();
+        $("body").tooltip({ selector: '[data-toggle=tooltip]' });
+      });
+
+    </script>
+
+  </body>
+</html>

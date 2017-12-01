@@ -1,0 +1,61 @@
+html, body {
+	font-family: 'Quicksand', sans-serif;
+	/*letter-spacing: 0.1em;*/
+	font-size: 1em;
+	height: 100%;
+}
+
+.navbar {
+	font-size: 1.2em;
+}
+
+#nav_container {
+	width: 95%;
+    position: relative;
+}
+
+#nav_container img {
+    max-width:100%;
+    max-height: 100%;
+    z-index: 1;
+}
+
+svg {
+	max-width:100%;
+	max-height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 0;
+}
+
+#about {
+	font-size: 1.8em;
+}
+
+#about img {
+	max-width: 90%;
+	margin: 1em 1em 1em 0em;
+}
+
+.footer {
+    position: absolute;
+    bottom: 0em;
+    width: 100%;
+    padding: 1.0em;
+    background-color: #f5f5f5;
+}
+
+#social {
+	max-height: 5%
+}
+
+#social img {
+	height: 100%;
+	margin-left: 1em;
+	margin-right: 1em;
+}
+
+#social img:hover {
+	opacity: 0.5;
+}

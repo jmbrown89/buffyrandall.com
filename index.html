@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Home | Buffy Randall</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+
+  </head>
+
+  <body>
+
+    <nav class="navbar navbar-default">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <a class="navbar-brand" href="">Buffy Randall</a>
+        </div>
+        <ul class="nav navbar-nav">
+          <li class="active"><a href="index.html">Home</a></li>
+          <li><a href="info.html">Info</a></li>
+          <li><a href="shop.html">Shop</a></li>
+          <li><a href="#" data-toggle="tooltip" data-placement="bottom" title="Coming soon!">Lab</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-sm-12" align="center">
+          <div id="nav_container">
+            <!-- <img id="nav_lights" class="svg" src="images/nav_lights.svg" width="2000"/>
+            <img id="nav_dark" class="svg" src="images/nav_off.svg" width="2000"/> -->
+            <img id="nav_img preload" class="base" src="images/nav_plain.png" width="2000" usemap="#navmap"/>
+          </div>
+        </div>
+      </div>  
+    </div>
+
+    <div class="container-fluid">
+        <div class="col-sm-12" id="social" align="center">
+          <a href="https://www.facebook.com/Buffys-Books-777620492439363" target="_blank" >
+            <img src="images/icons/social-1_logo-facebook.svg" alt="Facebook icon" data-toggle="tooltip" data-placement="bottom" title="Like Buffy on Facebook"/>
+          </a>
+          <a href="https://twitter.com/BuffysBooks" target="_blank">
+            <img src="images/icons/social-1_logo-twitter.svg" alt="Twitter icon" data-toggle="tooltip" data-placement="bottom" title="Follow Buffy on Twitter"/>
+          </a>
+          <a href="https://www.instagram.com/buffysbooks/" target="_blank">
+            <img src="images/icons/social-1_logo-instagram.svg" alt="Instagram logo" data-toggle="tooltip" data-placement="bottom" title="Follow Buffy on Instagram"/>
+          </a>
+        </div>
+    </div>
+
+    <map name="navmap">
+      <area shape="rect" coords="79,450,365,524" alt="Home" href="index.html" />
+      <area shape="rect" coords="475,655,647,737" alt="Shop" href="shop.html" />
+      <area shape="rect" coords="1387,200,1524,264" alt="About Buffy" href="info.html" />
+      <area shape="rect" coords="1388,505,1520,579" alt="Visit the lab" href="#" />
+    </map>
+
+    <footer class="footer">
+      <div class="container-fluid">
+        <p class="text-muted text-center">Buffy Randall | © 2017 Copyright: <a href="https://www.buffyrandall.com"> buffyrandall.com </a></p>
+      </div>
+    </footer>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="node_modules/jquery/dist/jquery.min.js"></script>
+    <!-- <script src="node_modules/jquery/dist/jquery.slim.min.js"></script> -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+    <script src="https://npmcdn.com/tether@1.2.4/dist/js/tether.min.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="js/jquery.rwdImageMaps.min.js"></script>
+    <script src="js/inline_svg.js"></script>
+
+    <script type="text/javascript">
+      
+      $(document).ready(function(e) {
+        $('img[usemap]').rwdImageMaps();
+        $("body").tooltip({ selector: '[data-toggle=tooltip]' });
+      });
+
+
+
+    </script>
+
+  </body>
+</html>
