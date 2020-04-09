@@ -19,6 +19,7 @@
     <div class="jumbotron top-bar"></div>
     
     <nav class="navbar navbar-light navbar-expand-md justify-content-center sticky-top" style="background-color: #ffffff;">
+<!--        <p class="lead">Author, illustrator &amp; scientist</p>-->
         <a href="/" class="navbar-brand mr-0 d-block d-sm-none">Menu</a> 
         <button class="navbar-toggler ml-1" type="button" data-toggle="collapse" data-target="#collapsingNavbar2">
             <span class="navbar-toggler-icon"></span>
@@ -28,7 +29,7 @@
                 <li class="nav-item">
                     <a class="nav-link" href="index.html">Home <span class="sr-only">Home</span></a>
                 </li>
-                <li class="nav-item">
+                <li class="nav-item active">
                     <a class="nav-link" href="about.html">About</a>
                 </li>
                 <li class="nav-item dropdown">
@@ -44,7 +45,7 @@
                     <a class="dropdown-item" href="misc.html">Miscellany</a>
                   </div>
                 </li>
-                <li class="nav-item active">
+                <li class="nav-item">
                     <a class="nav-link" href="shop.html">Shop</a> 
                 </li>
                 <li class="nav-item">
@@ -54,28 +55,33 @@
         </div>
     </nav>
     
-    <div class="iframe-div" style='position: relative; width: 100%; height: 0px; padding-bottom: 60%;'>
-
-      <iframe id="preview" data-bindattr-21="21"
-        height="800px" data-bindattr-22="22"
-        width="1200px" data-bindattr-23="23"
-        src="http://www.blurb.com/bookshare/app/index.html?bookId=8330300" data-bindattr-24="24"
-        frameborder=0
-        allowfullscreen=''
-        onload=''
-        scrolling='no'
-        style='position: absolute; left: 0px; top: 0px; width: 100%; height: 100%'>
-      </iframe>
-
-      <div class="container text-center" id="spinner">
-        <div>
-             <img src="images/spinner.gif" /> <br/><br/>
-             Loading something brilliant   
+    <div class="container about">
+      <div class="row justify-content-md-center">
+        <div class="col-lg-5">
+          <img src=images/buffy.png class="img-responsive" />
+          <p style="font-size: 0.8em; padding: 0.5em;">Photo credit: Eleanor Randall</p>
+        </div>
+        <div class="col-lg-5 bio">
+          Hello!<br/><br/>
+          My name is Buffy and I’m an
+          author and illustrator based in Lincoln in the UK. I’ve
+          been writing and drawing pictures since I was very
+          tiny; my first ever picture book was about Geraldine
+          the Giraffe who didn’t like baths.<br/><br/>
+          Before becoming a full-time artist, I worked as a
+          scientist and I have a PhD in chemistry. I like to work
+          a little bit of science into my artwork and picture
+          books – drawing from the natural world and
+          celebrating inquisitive minds.<br/><br/>
+          I’m an SCBWI member and I’m currently enrolled in
+          ‘My Year of Art School’ from Lilla Rogers Studio. I
+          would love to hear from you about commissions and collaborations,
+          you can find my contact details <a href="contact.html">here</a>.<br/><br/>
+          Thank you for visiting!
         </div>
       </div>
-
     </div>  
-      
+    
     <footer class="footer">
       <div class="container">
         <div class="text-center">
@@ -88,24 +94,13 @@
  Copyright: <a href="https://www.buffyrandall.com"> buffyrandall.com </a></p>
       </div>
     </footer>
-    
+      
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
     <script src="js/jquery.darkbox.min.js"></script>
-    
-    <script type="text/javascript">
-      $(document).ready(function(e) {
-        $('#preview').on('load', function () {
-            $('#spinner').delay(1000).queue(function (next) { 
-              $(this).hide()
-            });
-        });
-
-      });
-    </script>
 
   </body>
 </html>
